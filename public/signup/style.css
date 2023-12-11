@@ -1,0 +1,18 @@
+body{
+    background: url('./bg.webp') fixed;
+    background-size: cover;
+}
+@media only screen and (max-width:1000px){
+    .img-thumbnail{
+        display: none;          
+        }
+    form{
+        /* display: flex; */
+        margin: 0 auto;
+    }    
+}
+@media only screen and (max-width:770px) {
+    .col-8{
+        width: 100%;
+    }
+}

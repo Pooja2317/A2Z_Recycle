@@ -1,0 +1,22 @@
+hr{
+    margin-top: 100px;
+}
+.backgroundnone{
+    background: none;
+}
+.carousel-inner{
+margin-top: 56px;
+}
+.mtop{
+    margin-top: 76px;
+}
+@media only screen and (max-width:990px)
+{
+    .fixed-top{
+        position:static;
+    }
+    .mtop{
+        margin-top: 0px;
+    }
+   
+}
